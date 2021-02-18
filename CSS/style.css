@@ -1,0 +1,174 @@
+body{
+    background-color: rgba(206, 212, 212, 0.377);
+    width: 100%;
+    margin: 50px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 50px;
+}
+
+header{
+    margin: 50px;
+    /* position: relative; */
+    background-color: beige;  
+}
+
+#logo{
+    width: 4%; 
+    /* position: absolute; */
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+header h1{
+    font-family: 'Yellowtail', cursive;
+    font-size: 300%;
+    padding: 10px;
+    margin-left: 90px;
+    margin-top: -80px;
+    font-weight: bolder;
+    /* font-family: 'Francois One', sans-serif; */
+}
+
+header h5{
+    font-family: 'Newsreader', serif;
+    /* font-family: 'Roboto', sans-serif; */
+    margin-left: 100px;
+
+}
+
+header nav {
+    margin-top: -75px;
+    float:right;
+    margin-right: 90px;
+    
+  }
+
+header ul li {
+
+    float: left;
+    margin-top: 40px;
+    margin-left: 5px;
+  
+  }
+header ul li:nth-last-child(2){
+    margin-left: 20px;
+}
+ 
+hr{
+    margin-top: 20px;
+    width: 90%;
+    height: 12px;
+    border: 1px dashed rgb(65, 65, 65);
+}
+#head h2{
+    font-family: 'Francois One', sans-serif;
+    font-size: 40px;
+     
+}
+#head h3{
+    font-family: 'Newsreader', serif;
+    font-size: smaller;
+    margin-top: 10px;
+    
+}
+#head nav{
+    float: right;
+    margin-top: -30px;
+    margin-left: 70px;
+    margin-right: 50px;
+}
+#head nav a{
+    display: inline-block;
+}
+#head nav a img{
+    width: 130%;
+}
+#head nav p{
+    margin-left:5px ;
+    display: inline-block;
+    font-family: 'Newsreader', serif;
+}
+#chocolatecake{
+    width: 96%;
+    margin-left: 1px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#picandparagraphs p{
+    font-family: 'Francois One', sans-serif;
+    font-size: 18px;
+    text-align:left;
+    width: 90%;
+    margin-left: 30px;
+}
+#checklist{
+    margin-top: 30px;
+    background-image: url("../images/list-bg.png");
+    object-fit: fill;
+    width: 90%;
+    box-shadow: 1px 10px #88888844;
+    height: 250px;
+    margin-left: 30px;
+}
+
+
+#listleft{
+    float: left;
+}
+#listleft li{
+   list-style: none;
+   margin: 7px;  
+   margin-top: -5px;
+   margin-bottom: -82px;
+   margin-left: 130px;
+}
+#listleft li input{
+    margin-left: -10px;
+}
+#listleft li label{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-left: -50px;
+}
+
+
+#listright{
+    float: right;
+}
+#listright li{
+    list-style: none;
+    margin:5px;  
+    margin-top: -5px;
+    margin-bottom: -82px;
+    margin-right: 70px;
+}
+ #listright li input{
+    margin-right: 50px;
+}
+ #listright li label{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-left: -50px;
+}
+
+ .granulated{
+    text-decoration:line-through;
+}
+ .egg{
+    text-decoration:line-through;
+}
+
+
+#footerhr{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+#vanpic{
+    border-radius: 50%;
+}
+
