@@ -170,5 +170,58 @@ hr{
 
 #vanpic{
     border-radius: 50%;
+    margin-left: 30px;
+    margin-top: -30px;
+}
+#chef h4{
+    font-family: 'Newsreader', serif;
+    font-weight: bolder;
+    font-size: 20px;
+    float: right;
+    margin-right: 945px;
+    margin-top: -15px;
+}
+#chef p{
+    font-family: 'Newsreader', serif;
+    font-weight: bold;
+    font-size: 17px;
+    float: right;
+    margin-right: 600px;
+    margin-top: -15px;
+    width: 40%;
+}
+#sharerecipe{
+    margin-top: -50px;
+    margin-right: 100px;
+    float: right;
+    width: 13%;
+    height: 50px;
+    background-color: rgba(165, 42, 42, 0.63);
+    color: white;
+    border: none;
+}
+
+body footer{
+    margin-top: 90px;
+    width: 90%;
+    border-top: 1px solid rgb(134, 134, 134);
+    /* margin-bottom: 50px; */
+    height: 150px;
+}
+body footer img{
+    float: left;
+    margin-top: -15px;
+    margin-left: 50%;
+}
+body footer p{
+    font-family: 'Newsreader', serif;
+    color: gray;
+    margin-top: 35px;
+    margin-left: 510px;
+    font-size: 13px;
+}
+#p2{
+    margin-top: 8px;
+    margin-left: 530px;
 }
 
